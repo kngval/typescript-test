@@ -1,7 +1,15 @@
 console.log('Hello TS')
 
-let age :number = 20;
+//TS Data types
+// annotating data types is optional since typescript does it for you already.
 
-if(age < 50)
-    age += 10;
-console.log(age);
+let sales :number = 123_123_123;
+let title :string = 'TS Practice';
+let is_Finished : boolean = false;
+let sample; // any type
+
+
+//function that takes any data type as parameter
+function anyType(params: any){
+    console.log(params);
+}

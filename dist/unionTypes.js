@@ -5,6 +5,6 @@ function convert(weight) {
     }
     return parseInt(weight) * 2.2;
 }
-convert(10);
-convert('10kg');
+console.log(convert(10));
+console.log(convert('10kg'));
 //# sourceMappingURL=unionTypes.js.map

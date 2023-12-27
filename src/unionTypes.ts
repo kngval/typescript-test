@@ -1,5 +1,5 @@
 
-function convert(weight: number | string ): number{
+function convert(weight: number | string ): number{ //union type number or string but this supposed to return a number/int
 
     //narrowing
 
@@ -10,5 +10,5 @@ function convert(weight: number | string ): number{
 
 }
 
-convert(10)
-convert('10kg')
+console.log(convert(10))
+console.log(convert('10kg'))

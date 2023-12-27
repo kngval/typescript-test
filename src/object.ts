@@ -5,12 +5,13 @@ type User = {
      play: (date: Date) => void
 }
 
-let user: User {
-} = {
+
+let user: User = {
     id: 1,
     name: 'Brent',
     play: (date: Date) => {
         console.log(date)
     }
 }
+
 
